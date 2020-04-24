@@ -74,8 +74,7 @@ while True:
     is_low_light = display.read_light_level() < 20
     any_button = button_a.is_pressed() or button_b.is_pressed()
     if was_shook and is_low_light:
-        #cover the board to start the asking process like just like hold hands to ask with eyes closed
-        #I tried to set a variable to combine shake and cover actions but failed
+        #cover and shake the board to start the asking process like just like hold hands to ask with eyes closed
         #and sometimes the light sensor is too sensitive, don't know how to make it not so sensitive
         display.show(arrow_image_list)
         display.show(all_patterns, loop=True, delay=600, wait=False)
