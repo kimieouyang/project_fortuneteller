@@ -16,11 +16,13 @@ import music
 #setup
 msgs = ["You got this!", 
         "The universe is listening to you", 
-        "Msg3", 
-        "Msg4", 
-        "Msg5", 
-        "Msg6", 
-        "Msg7" ]
+        "Trust yourself!", 
+        "You are loved", 
+        "The best is yet to come", 
+        "Follow your heart", 
+        "Stay strong" ]
+#These msgs are temp, I would look for more msgs that meet the standard I mentioned in my proposal 
+
 song_list = [music.PRELUDE, music.NYAN, music.PYTHON, music.CHASE]
 arrow_image_list = [Image.ARROW_N, Image.ARROW_NE, Image.ARROW_E, Image.ARROW_SE, Image.ARROW_S, Image.ARROW_SW, Image.ARROW_W, Image.ARROW_NW]
 #another animate img setup 
