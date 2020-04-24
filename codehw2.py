@@ -66,8 +66,8 @@ all_patterns = [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6]
 #intro
 display.show(Image.HAPPY)
 sleep(2000)
-#display.scroll('cover & shake board while asking question', delay=100)
-#display.scroll('press any btn to finish asking', delay=100)
+display.scroll('cover & shake board while asking question', delay=100)
+display.scroll('press any btn to finish asking', delay=100)
 #I tried to use the "while not" to include the intro in the loop inside the while ture but failed 
 while True:
     was_shook = accelerometer.was_gesture("shake")
